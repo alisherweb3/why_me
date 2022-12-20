@@ -1,6 +1,7 @@
 ## User Manual (docker)
 
 > Docker install required
+> 0. Run Docker
 
 1. Clone Github repository:
 
