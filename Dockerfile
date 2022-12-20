@@ -2,7 +2,7 @@
 FROM python:3.10
 
 # Environment variables
-# Prevents Python from writing out pyc files
+# Prevents Python from writing out pyc files (the "translation" from source code to bytecode)
 ENV PYTHONDONTWRITEBYTECODE=1
 # Keeps Python from buffering stdin/stdout
 ENV PYTHONUNBUFFERED=1
@@ -14,5 +14,5 @@ WORKDIR /why_me
 COPY requirements.txt /why_me/requirements.txt
 RUN pip install -r requirements.txt
 
-# Comunication port for API's
+# Comunication port for APIs
 # EXPOSE 8000
