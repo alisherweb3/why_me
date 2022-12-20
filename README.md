@@ -1,14 +1,16 @@
 ## User Manual (docker)
 
 > Docker install required
-> 0. Run Docker
 
 1. Clone Github repository:
 
 ````
 git clone https://github.com/golyshevskii/why_me.git
 ````
-2. Run docker containers 
+
+2. Run Docker application
+
+3. Run docker containers 
 ``` 
 docker-compose up
 ```
