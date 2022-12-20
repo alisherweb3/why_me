@@ -3,4 +3,3 @@
 .dockerignore
 venv
 commands.txt
-data
