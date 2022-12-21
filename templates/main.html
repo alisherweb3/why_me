@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <!-- make your website look good on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title %}WhyMe | Space{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <ul>okay</ul>
+    {% block content %}
+    <ul>not okay</ul>
+    {% endblock %}
+</body>
